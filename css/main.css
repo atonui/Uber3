@@ -1,0 +1,94 @@
+
+/**footer**/
+
+.blockquote-footer{
+    text-align: center;
+}
+
+/*Style for section B*/
+ */
+#section-b .row{
+    /*background-color: purple;*/
+    margin-top: 30px;
+}
+#section-b .card img{
+    width: 100%;
+    height: 200px;
+}
+
+#section-b .card img:hover{
+    opacity: 0.2;
+}
+
+#section-b .card:hover{
+    box-shadow: 3px 3px 3px 3px rebeccapurple;
+}
+
+#section-b .card .card-title:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 2, 0.16);
+}
+
+/*Style for section C*/
+
+#section-c #section-c-left{
+    padding: 20px;
+    font-family: "DejaVu Math TeX Gyre";
+    font-weight: bold;
+    text-align: left;
+    height: 50vh;
+}
+
+#section-c #section-c-right{
+    padding: 20px;
+    background-image: url("../images/eats3.jpg");
+    text-align: center;
+    color: #ad89e9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+
+/*SignUp Section*/
+/*.container .auth-img img{*/
+/*    height: 30vh;*/
+/*    width: 500px;*/
+    /*border-radius: 50%;*/
+    /*margin-left: 100px;*/
+    /*border: 3px solid black;*/
+/*}*/
+/*This can also be used to style the img*/
+#signup-section fieldset img, #login-section fieldset img{
+    height: 30vh;
+    width: 500px;
+}
+
+#signup-section fieldset, #login-section fieldset{
+    margin-top: 30px;
+    /*background-color: rgba(17, 13, 255, 0.41);*/
+    padding: 20px;
+    border-radius: 25px;
+    border: #005cbf 2px solid;
+    font-family: "DejaVu Math TeX Gyre";
+    box-shadow: 3px 3px 3px 3px #78a4db;
+}
+
+/*Login Section*/
+#login-section fieldset img{
+    height: 45vh;
+    width: 450px;
+}
+
+/**about section css**/
+
+#section-about .bg-image{
+    background-image: url("../images/eats3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: #d6d6d6;
+    font-size: 2em;
+}
